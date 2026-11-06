@@ -116,3 +116,6 @@ Por varias razones que se vieron en el proyecto:
 - La precisión se mide contra la misma regla inventada que se usó para crear los datos. Un 99.4 % solo dice que la red copió bien esa regla, no que entienda lo que necesita una mascota de verdad.
 - Depende de cómo estén repartidas las clases. Aquí están parejas (34 / 32 / 34 %), así que adivinar da más o menos 34 %. Pero si una acción fuera el 90 % de los datos, una red que siempre diga esa acción tendría 90 % y no habría aprendido nada.
 - La precisión y la pérdida no siempre van juntas. Con tasa 1.0 la pérdida fue más baja (0.0447) que con 0.1 (0.1225), pero la precisión fue más baja (98.7 % contra 99.4 %).
+
+Neurito 2.0: aprende a saltar
+El proyecto tiene una segunda parte donde Neurito aprende cuándo saltar obstáculos. Cómo funciona está en GUIA_SALTO.md. Los experimentos de esa parte (juego sin entrenar, épocas, neuronas ocultas y tasa de aprendizaje) y sus resultados están en EXPERIMENTOS_SALTO.md.
